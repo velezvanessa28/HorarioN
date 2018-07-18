@@ -1,11 +1,11 @@
 // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyBDKlE_B7uqAYiRBWAobvsiVOI_pzL7N7g",
-    authDomain: "chat-72fb4.firebaseapp.com",
-    databaseURL: "https://chat-72fb4.firebaseio.com",
-    projectId: "chat-72fb4",
-    storageBucket: "chat-72fb4.appspot.com",
-    messagingSenderId: "478181109755"
+    apiKey: "AIzaSyCwgPfD2DeyOQjKch1F9bUKEVTIs7gUjgU",
+    authDomain: "hono-7d467.firebaseapp.com",
+    databaseURL: "https://hono-7d467.firebaseio.com",
+    projectId: "hono-7d467",
+    storageBucket: "",
+    messagingSenderId: "202649699"
   };
   firebase.initializeApp(config);
 

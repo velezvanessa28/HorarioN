@@ -21,19 +21,15 @@
  				})
  				.catch(function(error) {
  					alert('No eres bienvenido');
-
  				});
  			}
  		}
  		);
- });
- jQuery(document).ready(function($) {
  	$('.registro').on(
  		'submit',
  		function(e){
  			e.preventDefault();
  			var email = $('.registro .email').val();
-
  			var password = $('.registro .password').val();
  			if(!email) {
  				alert('Debe ingresar un correo');
@@ -47,16 +43,13 @@
  				.createUserWithEmailAndPassword(email, password)
  				.then(function(){
  					alert('Creaste un nuevo usuario');
+ 					console.log(email);
  				})
  				.catch(function(error) {
  					alert('Debes intentarlo de nuevo');
-
+ 					
  				});
- 			}
+ 			};
  		}
  		);
  });
-
-
-
- 
